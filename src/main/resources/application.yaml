@@ -1,0 +1,11 @@
+spring:
+  batch:
+    job:
+      enabled: false
+  datasource:
+    url: 'jdbc:h2:mem:test'
+    username: 'sa'
+    password: 'sa'
+    driver-class-name: org.h2.Driver
+
+input: classpath:users.csv
